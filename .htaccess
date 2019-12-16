@@ -1,0 +1,15 @@
+php_value display_errors Off
+php_flag magic_quotes 1
+php_flag magic_quotes_gpc 1
+php_value mbstring.http_input auto
+php_value date.timezone America/New_York
+ErrorDocument 400 http://notepade.move.pk/404eror.html
+ErrorDocument 401 http://notepade.move.pk/404eror.html
+ErrorDocument 403 http://notepade.move.pk/404eror.html
+ErrorDocument 404 http://notepade.move.pk/404eror.html
+ErrorDocument 503 http://notepade.move.pk/404eror.html
+
+php_value upload_max_filesize 128M
+php_value post_max_size 128M
+php_value max_execution_time 300
+php_value max_input_time 300
